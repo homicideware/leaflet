@@ -2,12 +2,10 @@
 
 <img src="https://i.imgur.com/dvmKX8d.png">
 
-POSP official notes application, written in flutter, beautiful, fast and secure.
-
-<a href='https://play.google.com/store/apps/details?id=com.potatoproject.notes&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="80px"/></a>
-
+Leaflet notes cross-platform application, written in Flutter, beautiful, fast and secure.
+_
 ## Main features
-- Material design
+- Material design version 3
 - Completely cross platform
 - List/grid view for notes
 - Multiple note extras, such as lists, images and drawings
@@ -26,11 +24,11 @@ POSP official notes application, written in flutter, beautiful, fast and secure.
 - [ ] Refined UI for desktop platforms
 
 ## Compiling the app
-Before anything, be sure to have a working flutter sdk setup.
+Before anything, be sure to have a working Flutter SDK setup.
 
 Be sure to disable signing on build.gradle or change keystore to sign the app.
 
-For now the required flutter channel is master, so issue those two commands before starting building:
+For now the required Flutter channel is 'master', so issue those two commands before starting building:
 ```
 ~$ flutter channel master
 ~$ flutter upgrade
@@ -54,7 +52,7 @@ This will generate and update the required files
 
 ## Contributing
 The entire app and even the [online sync api](https://github.com/broodroosterdev/potatosync-rust) is completely open source.  
-Feel free to open a PR to suggest fixes, features or whatever you want, just remember that PRs are subjected to manual review so you gotta wait for actual people to look at your contributions
+Feel free to open a PR to suggest fixes, features or whatever you want, just remember that PRs are subjected to manual review, you're going to wait for actual people to look at your contributions
 
 For translations, head over to our [Crowdin](https://potatoproject.crowdin.com/leaflet).
 
